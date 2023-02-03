@@ -13,6 +13,7 @@ int index = 0; //индексы в массиве начинается с 0
 while (index < n){
   if(array[index] == find){
     Console.WriteLine(index);
+    break; //если в массиве есть одинаковые числа, он покажет оба. Чтоб этого не было, он прервется на первом
     }
   index++;
 }
